@@ -1,3 +1,5 @@
+<img align="left" src="https://selcukusta.com/images/extension-logo.png">
+
 # Codalyze: Code Complexity REST API
 
 [![The MIT License](https://flat.badgen.net/badge/license/MIT/orange)](http://opensource.org/licenses/MIT)
