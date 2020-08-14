@@ -51,19 +51,16 @@
     {% if argument.functions|length > 0 %}
     <div class="table-responsive text-nowrap">
         <table class="table table-striped">
+            <caption>Source Code: {{ header }}</caption>
             <thead>
                 <tr>
-                    <th colspan="6">
-                        <strong>Source Code: {{ header }}</strong>
-                    </th>
-                </tr>
-                <tr>
-                    <th>Function Name</th>
-                    <th>Start Line</th>
-                    <th>End Line</th>
-                    <th>Cyclomatic Complexity <sup>(Threshold: {{ thresholds["cyclomatic_complexity"] }})</sup></th>
-                    <th>Lines of Code <sup>(Threshold: {{ thresholds["lines_of_code"] }})</sup></th>
-                    <th>Parameter Count <sup>(Threshold: {{ thresholds["parameter_count"] }})</sup></th>
+                    <th scope="col">Function Name</th>
+                    <th scope="col">Start Line</th>
+                    <th scope="col">End Line</th>
+                    <th scope="col">Cyclomatic Complexity <sup>(Threshold:
+                            {{ thresholds["cyclomatic_complexity"] }})</sup></th>
+                    <th scope="col">Lines of Code <sup>(Threshold: {{ thresholds["lines_of_code"] }})</sup></th>
+                    <th scope="col">Parameter Count <sup>(Threshold: {{ thresholds["parameter_count"] }})</sup></th>
                 </tr>
             </thead>
             <tbody>
