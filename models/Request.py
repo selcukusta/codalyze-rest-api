@@ -1,9 +1,7 @@
 from pydantic import BaseModel
-import typing as t
-
-Threshold = t.NewType("Threshold", t.Mapping)
+from . import Threshold as t
 
 
 class Request(BaseModel):
     html: str
-    threshold: Threshold
+    threshold: t.Threshold
