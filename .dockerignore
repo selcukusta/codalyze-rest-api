@@ -1,3 +1,6 @@
-!models/
+**
+!assets/**
+!models/**
+!output_generator/**
 !main.py
 !requirements.txt
