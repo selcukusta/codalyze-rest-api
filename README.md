@@ -11,6 +11,12 @@
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/downloads-short/selcuk-usta.code-complexity-report-generator.svg)](https://marketplace.visualstudio.com/items?itemName=selcuk-usta.code-complexity-report-generator)
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/selcuk-usta.code-complexity-report-generator.svg)](https://marketplace.visualstudio.com/items?itemName=selcuk-usta.code-complexity-report-generator)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=selcukusta_codalyze-rest-api&metric=alert_status)](https://sonarcloud.io/dashboard?id=selcukusta_codalyze-rest-api)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=selcukusta_codalyze-rest-api&metric=sqale_index)](https://sonarcloud.io/dashboard?id=selcukusta_codalyze-rest-api)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=selcukusta_codalyze-rest-api&metric=bugs)](https://sonarcloud.io/dashboard?id=selcukusta_codalyze-rest-api)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=selcukusta_codalyze-rest-api&metric=code_smells)](https://sonarcloud.io/dashboard?id=selcukusta_codalyze-rest-api)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=selcukusta_codalyze-rest-api&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=selcukusta_codalyze-rest-api)
+
 Create code complexity (Cyclomatic complexity, Lines Of Code, Parameter Count, etc.) report for the activated code file.
 
 Supported languages;
