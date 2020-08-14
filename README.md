@@ -32,6 +32,11 @@ Supported languages;
 - Swift
 - Golang
 
+## Preview of VSCode Extension
+
+![VSCode Extension Preview](
+https://selcukusta.com/images/preview.gif)
+
 ## Run locally
 
 ```bash
