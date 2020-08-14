@@ -1,4 +1,6 @@
-<img align="left" src="https://selcukusta.com/images/extension-logo.png">
+<p align="center">
+  <img width="120" height="120" src="https://selcukusta.com/images/extension-logo.png">
+</p>
 
 # Codalyze: Code Complexity REST API
 
