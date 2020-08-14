@@ -30,6 +30,7 @@ Supported languages;
 
 ```bash
 pip install -r requirements.txt
+pip install uvicorn
 uvicorn main:app --reload
 ```
 
