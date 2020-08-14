@@ -1,0 +1,4 @@
+pydantic==1.6.1
+lizard==1.17.4
+fastapi==0.60.2
+Jinja2==2.11.2
