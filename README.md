@@ -34,8 +34,7 @@ Supported languages;
 
 ## Preview of VSCode Extension
 
-![VSCode Extension Preview](
-https://selcukusta.com/images/preview.gif)
+![VSCode Extension Preview](.github/images/preview.png)
 
 ## Run locally
 
