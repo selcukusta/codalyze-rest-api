@@ -59,7 +59,7 @@ Application has 3 specific endpoints:
 
 #### Request
 
-`curl --location --request GET 'http://127.0.0.1:8000/'`
+`curl --request GET 'http://127.0.0.1:8000/'`
 
 #### Response
 
@@ -81,7 +81,7 @@ Application has 3 specific endpoints:
 #### Request
 
 ```bash
-curl --location --request POST 'http://127.0.0.1:8000/analyze/go' \
+curl --request POST 'http://127.0.0.1:8000/analyze/go' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "html": "[PASTE_YOUR_CODE]",
@@ -116,7 +116,7 @@ curl --location --request POST 'http://127.0.0.1:8000/analyze/go' \
 #### Request
 
 ```bash
-curl --location --request POST 'http://127.0.0.1:8000/output/go' \
+curl --request POST 'http://127.0.0.1:8000/output/go' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "html": "[PASTE_YOUR_CODE]",
